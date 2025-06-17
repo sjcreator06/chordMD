@@ -7,7 +7,7 @@ ChordMD is a single Python script that can be run to convert chords to the Nashv
 https://github.com/sjcreator06/chordMD.git
 
 ```
-### Install Reportlab to Generate PDFs
+### Install fpdf to Generate a PDF Output
 ```bash
 pip install fpdf
 ```
