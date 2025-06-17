@@ -15,7 +15,6 @@ def chordAnalysis():
     global songFileString,chordNumbers,G_chords,keyChords,keys
     
     # Lists
-    G_chords = []
     chordNumbers  = []
     keyChords = []
     keys = []
@@ -23,12 +22,6 @@ def chordAnalysis():
     # Reads the Song Input File
     songFile = open("songInput.txt", "r")
     songFileString = songFile.read()
-    
-    # Creates a list of all the Chords in the Key of G
-    chordsFile = open("keyofG.txt", "r")
-
-    for chord in chordsFile:
-        G_chords.append(chord.strip())
 
     # Creates a list for the Nashville Number System
     numberSystemFile = open("numberSystem.txt", "r")
@@ -85,6 +78,7 @@ def main():
     
     global keyIndex
     keyStr = input("Please enter the key of your song: ")
+    songName = input("Please enter the name of your song: ")
     
     keyIndex = keys.index(keyStr)
     
