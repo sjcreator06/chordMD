@@ -5,6 +5,7 @@ ChordMD is a single Python script that can be run to convert chords to the Nashv
 ## | Installation 
 ```bash
 https://github.com/sjcreator06/chordMD.git
+```
 
 ## | Usage 
 
