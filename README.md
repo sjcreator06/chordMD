@@ -17,6 +17,8 @@ https://github.com/sjcreator06/chordMD.git
 
 **Step 3**: Enter the name of the song you input
 
-**Step 4**: Enter the key of the song you input
+**Step 4**: Enter the artist of the song you input
+
+**Step 5**: Enter the key of the song you input
 
 ## | Example Results
