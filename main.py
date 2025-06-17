@@ -57,4 +57,5 @@ songFileUpdated = songFileString.replace(G_chords[13], str(chordNumbers[13]))\
                                                                 .replace(G_chords[16],str(chordNumbers[16]))\
                                                                     .replace(G_chords[0],str(chordNumbers[0]))
 
+
 print(songFileUpdated)
