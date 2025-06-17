@@ -1,9 +1,9 @@
 """
 __________________________________ChordMD__________________________________
 
-This program asks the user to input the chords in the key of G. 
+This program asks the user to input the chords in any key. 
 
-The script replaces the chords with the Nashville Number System parallel. 
+The script replaces the chords with the Nashville Number System chords. 
 
 This is useful for musicians to transpose easier to other keys.
 
@@ -20,17 +20,17 @@ def chordAnalysis():
     keys = []
     
     # Reads the Song Input File
-    songFile = open("songInput.txt", "r")
+    songFile = open("Data/songInput.txt", "r")
     songFileString = songFile.read()
 
     # Creates a list for the Nashville Number System
-    numberSystemFile = open("numberSystem.txt", "r")
+    numberSystemFile = open("Data/numberSystem.txt", "r")
     for chord in numberSystemFile:
         chordNumbers.append(chord.strip())
         
     
     # Create a Dictionary for the Chords of Each Key (Key:List of Chords)
-    chordDatabase = open("chordsDatabase.csv", "r")
+    chordDatabase = open("Data/chordsDatabase.csv", "r")
     
     # Reading the Chords Database and Creating a List for Each Key and List of all Keys
     for chordGroup in chordDatabase:
@@ -76,9 +76,11 @@ def main():
     else:
         print("__________ChordMD_________"+ "\n")
     
+    songName = input("Please enter the name of your song: ")
+    
     global keyIndex
     keyStr = input("Please enter the key of your song: ")
-    songName = input("Please enter the name of your song: ")
+    
     
     keyIndex = keys.index(keyStr)
     
