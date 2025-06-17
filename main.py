@@ -40,6 +40,7 @@ for chord in numberSystemFile:
     chordNumbers.append(chord.strip())
 
 songFileUpdated = songFileString.replace(G_chords[13], str(chordNumbers[13]))\
+.replace(G_chords[15],str(chordNumbers[15]))\
     .replace(G_chords[1],str(chordNumbers[1]))\
         .replace(G_chords[2],str(chordNumbers[2]))\
             .replace(G_chords[3],str(chordNumbers[3]))\
@@ -53,10 +54,7 @@ songFileUpdated = songFileString.replace(G_chords[13], str(chordNumbers[13]))\
                                             .replace(G_chords[11],str(chordNumbers[11]))\
                                                 .replace(G_chords[12],str(chordNumbers[12]))\
                                                         .replace(G_chords[14],str(chordNumbers[14]))\
-                                                            .replace(G_chords[15],str(chordNumbers[15]))\
                                                                 .replace(G_chords[16],str(chordNumbers[16]))\
                                                                     .replace(G_chords[0],str(chordNumbers[0]))
-
-
 
 print(songFileUpdated)
