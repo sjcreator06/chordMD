@@ -47,26 +47,11 @@ def chordAnalysis():
 
 def replaceChords():
     global songFileUpdated
+    songFileUpdated = songFileString
 
-    songFileUpdated = songFileString.replace(keyChords[keyIndex][13], str(chordNumbers[13]))\
-        .replace(keyChords[keyIndex][15],str(chordNumbers[15]))\
-            .replace(keyChords[keyIndex][1],str(chordNumbers[1]))\
-                .replace(keyChords[keyIndex][2],str(chordNumbers[2]))\
-                    .replace(keyChords[keyIndex][3],str(chordNumbers[3]))\
-                        .replace(keyChords[keyIndex][4],str(chordNumbers[4]))\
-                            .replace(keyChords[keyIndex][5],str(chordNumbers[5]))\
-                                .replace(keyChords[keyIndex][6],str(chordNumbers[6]))\
-                                    .replace(keyChords[keyIndex][7],str(chordNumbers[7]))\
-                                        .replace(keyChords[keyIndex][8],str(chordNumbers[8]))\
-                                            .replace(keyChords[keyIndex][9],str(chordNumbers[9]))\
-                                                .replace(keyChords[keyIndex][10],str(chordNumbers[10]))\
-                                                    .replace(keyChords[keyIndex][11],str(chordNumbers[11]))\
-                                                        .replace(keyChords[keyIndex][12],str(chordNumbers[12]))\
-                                                                .replace(keyChords[keyIndex][14],str(chordNumbers[14]))\
-                                                                        .replace(keyChords[keyIndex][16],str(chordNumbers[16]))\
-                                                                            .replace(keyChords[keyIndex][0],str(chordNumbers[0]))
-
-
+    order = [1, 13, 14, 15, 16, 17,18,19,20,0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    for i in order:
+        songFileUpdated = songFileUpdated.replace(keyChords[keyIndex][i], str(chordNumbers[i]))
 
 def main():
     chordAnalysis()
