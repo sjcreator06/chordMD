@@ -9,7 +9,7 @@ https://github.com/sjcreator06/chordMD.git
 ```
 ### Install Reportlab to Generate PDFs
 ```bash
-pip install reportlab
+pip install fpdf
 ```
 
 ## | Usage 
