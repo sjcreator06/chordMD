@@ -1,16 +1,13 @@
-"""Add commentMore actions
+"""
 __________________________________ChordMD__________________________________
 
-This program asks the user to input the chords in the key of G. 
 This program asks the user to input the chords in any key. 
 
-The script replaces the chords with the Nashville Number System parallel. 
 The script replaces the chords with the Nashville Number System chords. 
 
 This is useful for musicians to transpose easier to other keys.
 
                                ©sjcreator06
-
 """
 
 def chordAnalysis():
