@@ -1,7 +1,5 @@
 # chordMD
 
-## | About chordMD
-
 ChordMD is a single Python script that can be run to convert chords to the Nashville number system. This script will also output a formatted PDF. Currently, this script works well for CCM music, but in future updates, it can also be adapted to work for gospel and traditional Christian songs. 
 
 ## | Installation 
