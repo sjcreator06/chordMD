@@ -15,10 +15,10 @@ https://github.com/sjcreator06/chordMD.git
 
 **Step 2**: Run `chordConversion.py`
 
-**Step 3**: Enter the name of the song you input
+**Step 3**: Enter the name of the song you input in the terminal
 
-**Step 4**: Enter the artist of the song you input
+**Step 4**: Enter the artist of the song you input in the terminal
 
-**Step 5**: Enter the key of the song you input
+**Step 5**: Enter the key of the song you input in the terminal
 
 ## | Example Results
