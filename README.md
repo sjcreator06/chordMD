@@ -9,7 +9,7 @@ https://github.com/sjcreator06/chordMD.git
 
 ## | Usage 
 
-**Step 1**: Update `songInput.txt` with your song of choice.
+**Step 1**: Update `data/songInput.txt` with your song of choice.
 
 **Step 2**: Run `chordConversion.py`
 
@@ -18,3 +18,14 @@ https://github.com/sjcreator06/chordMD.git
 **Step 4**: Enter the artist of the song you input in the terminal
 
 **Step 5**: Enter the key of the song you input in the terminal
+
+## | Example Result
+**Song Name**: Gratitude
+**Artist Name**: Brandon Lake
+**Key**: G
+
+<img width="159" alt="image" src="https://github.com/user-attachments/assets/1b838280-cd4f-4386-812a-2a10a7852408" />
+
+<img width="238" alt="image" src="https://github.com/user-attachments/assets/fd31c712-59a2-4069-9986-533040fff157" />
+
+The image on the left is the input chords stored in songInput.txt and the right image is the terminal output with the replaced chords from the Nashville Number System.
