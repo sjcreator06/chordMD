@@ -9,7 +9,7 @@ https://github.com/sjcreator06/chordMD.git
 
 ## | Usage 
 
-**Step 1**: Update `data/songInput.txt` with your song of choice.
+**Step 1**: Update `data/songInput.txt` with your song of choice
 
 **Step 2**: Run `chordConversion.py`
 
