@@ -21,7 +21,9 @@ https://github.com/sjcreator06/chordMD.git
 
 ## | Example Result
 **Song Name**: Gratitude
+
 **Artist Name**: Brandon Lake
+
 **Key**: G
 
 <img width="159" alt="image" src="https://github.com/user-attachments/assets/1b838280-cd4f-4386-812a-2a10a7852408" />
